@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzler - The Future of Personalized Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2>🎓 Quizzler</h2>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#features" class="nav__link">Features</a></li>
+                <li><a href="#technology" class="nav__link">Technology</a></li>
+                <li><a href="#results" class="nav__link">Results</a></li>
+                <li><a href="#team" class="nav__link">Team</a></li>
+                <li><a href="#download" class="nav__link btn btn--primary btn--sm">Download</a></li>
+            </ul>
+            <div class="nav__toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">The Future of Personalized Learning is Here</h1>
+                <p class="hero__subtitle">
+                    Experience the revolution in education with Quizzler's AI-powered learning platform. 
+                    Adaptive assessments, personalized paths, and intelligent insights - all in your pocket.
+                </p>
+                <div class="hero__buttons">
+                    <button class="btn btn--primary btn--lg download-btn" onclick="downloadApp()">
+                        <i class="fab fa-android"></i>
+                        Download for Android
+                    </button>
+                    <button class="btn btn--outline btn--lg">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <div class="stat__number" data-target="15">0</div>
+                        <div class="stat__label">% Improvement</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number" data-target="5">0</div>
+                        <div class="stat__label">AI Models</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number" data-target="10000">0</div>
+                        <div class="stat__label">Students</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-interface">
+                            <div class="app-header">🎓 Quizzler</div>
+                            <div class="app-content">
+                                <div class="quiz-card">
+                                    <h3>Mathematics Quiz</h3>
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <p>Question 5 of 10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Discover what makes Quizzler the ultimate learning companion</p>
+            </div>
+            <div class="features__grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card__icon">🧠</div>
+                    <h3 class="feature-card__title">Adaptive Assessments</h3>
+                    <p class="feature-card__description">
+                        Dynamic assessments that adapt to your performance, identifying weaknesses and providing targeted remediation
+                    </p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card__icon">🛤️</div>
+                    <h3 class="feature-card__title">Personalized Learning Paths</h3>
+                    <p class="feature-card__description">
+                        Customized learning resources and exercises tailored to your individual learning style and progress
+                    </p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card__icon">🎯</div>
+                    <h3 class="feature-card__title">Focus Mode</h3>
+                    <p class="feature-card__description">
+                        Distraction-free environment that maximizes concentration during study sessions
+                    </p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card__icon">🛡️</div>
+                    <h3 class="feature-card__title">Exam Mode</h3>
+                    <p class="feature-card__description">
+                        Secure assessment environment with anti-cheating measures for fair evaluations
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powered by Advanced AI</h2>
+                <p class="section-subtitle">Five cutting-edge machine learning models working together</p>
+            </div>
+            <div class="technology__grid">
+                <div class="tech-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tech-card__header">
+                        <i class="fas fa-tree"></i>
+                        <h3>Decision Tree</h3>
+                    </div>
+                    <div class="tech-card__body">
+                        <p>Predicts future performance using historical data</p>
+                        <div class="accuracy">82% Accuracy</div>
+                        <div class="metric">AUC: 0.90</div>
+                    </div>
+                </div>
+                <div class="tech-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tech-card__header">
+                        <i class="fas fa-vector-square"></i>
+                        <h3>Support Vector Machine</h3>
+                    </div>
+                    <div class="tech-card__body">
+                        <p>Classifies students into learning styles</p>
+                        <div class="accuracy">78% Accuracy</div>
+                        <div class="metric">F1-Score: 0.77</div>
+                    </div>
+                </div>
+                <div class="tech-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tech-card__header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Bayesian Network</h3>
+                    </div>
+                    <div class="tech-card__body">
+                        <p>Models probabilistic relationships between student characteristics</p>
+                        <div class="accuracy">80% Accuracy</div>
+                        <div class="metric">Likelihood Ratio: 2.5</div>
+                    </div>
+                </div>
+                <div class="tech-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="tech-card__header">
+                        <i class="fas fa-brain"></i>
+                        <h3>RNN-LSTM</h3>
+                    </div>
+                    <div class="tech-card__body">
+                        <p>Analyzes sequential learning data for trend prediction</p>
+                        <div class="accuracy">MSE: 0.05</div>
+                        <div class="metric">Correlation: 0.85</div>
+                    </div>
+                </div>
+                <div class="tech-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="tech-card__header">
+                        <i class="fas fa-users"></i>
+                        <h3>K-Nearest Neighbors</h3>
+                    </div>
+                    <div class="tech-card__body">
+                        <p>Recommends resources based on similar learners</p>
+                        <div class="accuracy">80% Accuracy</div>
+                        <div class="metric">F1-Score: 0.81</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proven Results</h2>
+                <p class="section-subtitle">Real impact on student learning outcomes</p>
+            </div>
+            <div class="results__content">
+                <div class="results__stats">
+                    <div class="result-stat" data-aos="fade-right">
+                        <div class="result-stat__number">15%</div>
+                        <div class="result-stat__label">Improvement in Test Scores</div>
+                        <div class="result-stat__sublabel">Statistically Significant (p < 0.05)</div>
+                    </div>
+                    <div class="result-benefits">
+                        <div class="benefit" data-aos="fade-left" data-aos-delay="100">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Increased student engagement</span>
+                        </div>
+                        <div class="benefit" data-aos="fade-left" data-aos-delay="200">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Enhanced motivation</span>
+                        </div>
+                        <div class="benefit" data-aos="fade-left" data-aos-delay="300">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Greater learning ownership</span>
+                        </div>
+                        <div class="benefit" data-aos="fade-left" data-aos-delay="400">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Improved academic performance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" data-aos="fade-up">
+                    <div class="testimonial__content">
+                        <p>"Quizzler has completely transformed how I approach learning. The personalized assessments help me focus on exactly what I need to improve."</p>
+                        <div class="testimonial__author">
+                            <strong>Sarah Johnson</strong>
+                            <span>Computer Science Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-subtitle">Passionate innovators from Thakur College of Engineering & Technology</p>
+            </div>
+            <div class="team__grid">
+                <div class="team-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="team-card__avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Piyush Pradeep Das</h3>
+                        <p class="team-card__role">AI & Data Science</p>
+                        <p class="team-card__institution">Thakur College of Engineering & Technology</p>
+                        <a href="mailto:piyushdas2004@gmail.com" class="team-card__email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="team-card__avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Kaustubh Gondkar</h3>
+                        <p class="team-card__role">AI & Data Science</p>
+                        <p class="team-card__institution">Thakur College of Engineering & Technology</p>
+                        <a href="mailto:kaustubhsgondkar@gmail.com" class="team-card__email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="team-card__avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Tanmay Nayak</h3>
+                        <p class="team-card__role">AI & Data Science</p>
+                        <p class="team-card__institution">Thakur College of Engineering & Technology</p>
+                        <a href="mailto:nayaktanmayg@gmail.com" class="team-card__email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="team-card__avatar">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Ms. Swati Mahalle</h3>
+                        <p class="team-card__role">Faculty Mentor</p>
+                        <p class="team-card__institution">Thakur College of Engineering & Technology</p>
+                        <a href="mailto:swati.mahalle@tcetmumbai.in" class="team-card__email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="download" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h2>🎓 Quizzler</h2>
+                    <p>The Future of Personalized Learning</p>
+                </div>
+                <div class="footer__download">
+                    <h3>Ready to Transform Your Learning?</h3>
+                    <button class="btn btn--primary btn--lg download-btn" onclick="downloadApp()">
+                        <i class="fab fa-android"></i>
+                        Download for Android
+                    </button>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Quizzler. All rights reserved. Thakur College of Engineering & Technology, Mumbai.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
