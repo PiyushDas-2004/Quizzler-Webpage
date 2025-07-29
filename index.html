@@ -12,7 +12,8 @@
     <header class="header">
         <nav class="nav container">
             <div class="nav__brand">
-                <h2>🎓 Quizzler</h2>
+                <img src="assets/app_icon.png" alt="Quizzler Logo" class="logo" />
+                <h2>Quizzler</h2>
             </div>
             <ul class="nav__menu">
                 <li><a href="#home" class="nav__link">Home</a></li>
@@ -78,21 +79,46 @@
                 <div class="phone-mockup">
                     <div class="phone-screen">
                         <div class="app-interface">
-                            <div class="app-header">🎓 Quizzler</div>
+                            <div class="app-header">QUIZLLER</div>
                             <div class="app-content">
                                 <div class="quiz-card">
-                                    <h3>Mathematics Quiz</h3>
+                                    <h3>DSMS Quiz</h3>
                                     <div class="progress-bar">
                                         <div class="progress"></div>
                                     </div>
                                     <p>Question 5 of 10</p>
                                 </div>
+                                <div class="quiz-card">
+                                    <h3>Operating System Quiz</h3>
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <p>Question 5 of 10</p>
+                                </div>
+                            <div class="analytics-card">
+                        <div class="analytics-header">
+                            <h4>📊 Weekly Progress</h4>
+                        </div>
+                        <div class="analytics-content">
+                            <div class="analytics-stat">
+                                <span class="stat-number">85%</span>
+                                <span class="stat-label">Avg Score</span>
+                            </div>
+                            <div class="analytics-stat">
+                                <span class="stat-number">12</span>
+                                <span class="stat-label">Quizzes Done</span>
+                            </div>
+                            <div class="analytics-stat">
+                                <span class="stat-number">4.2h</span>
+                                <span class="stat-label">Study Time</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </section>
 
     <!-- Features Section -->
@@ -203,39 +229,40 @@
     </section>
 
     <!-- Results Section -->
-    <section id="results" class="results">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Proven Results</h2>
-                <p class="section-subtitle">Real impact on student learning outcomes</p>
-            </div>
-            <div class="results__content">
-                <div class="results__stats">
-                    <div class="result-stat" data-aos="fade-right">
-                        <div class="result-stat__number">15%</div>
-                        <div class="result-stat__label">Improvement in Test Scores</div>
-                        <div class="result-stat__sublabel">Statistically Significant (p < 0.05)</div>
+<section id="results" class="results">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Proven Results</h2>
+            <p class="section-subtitle">Real impact on student learning outcomes</p>
+        </div>
+        <div class="results__content">
+            <div class="results__stats">
+                <div class="result-stat" data-aos="fade-up">
+                    <div class="result-stat__number">15%</div>
+                    <div class="result-stat__label">Improvement in Test Scores</div>
+                    <div class="result-stat__sublabel">Statistically Significant (p < 0.05)</div>
+                </div>
+                <div class="result-benefits">
+                    <div class="benefit" data-aos="fade-left" data-aos-delay="100">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Increased student engagement</span>
                     </div>
-                    <div class="result-benefits">
-                        <div class="benefit" data-aos="fade-left" data-aos-delay="100">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Increased student engagement</span>
-                        </div>
-                        <div class="benefit" data-aos="fade-left" data-aos-delay="200">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Enhanced motivation</span>
-                        </div>
-                        <div class="benefit" data-aos="fade-left" data-aos-delay="300">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Greater learning ownership</span>
-                        </div>
-                        <div class="benefit" data-aos="fade-left" data-aos-delay="400">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Improved academic performance</span>
-                        </div>
+                    <div class="benefit" data-aos="fade-left" data-aos-delay="200">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Enhanced motivation</span>
+                    </div>
+                    <div class="benefit" data-aos="fade-left" data-aos-delay="300">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Greater learning ownership</span>
+                    </div>
+                    <div class="benefit" data-aos="fade-left" data-aos-delay="400">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Improved academic performance</span>
                     </div>
                 </div>
-                <div class="testimonial" data-aos="fade-up">
+            </div>
+            <div class="testimonials__grid">
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
                     <div class="testimonial__content">
                         <p>"Quizzler has completely transformed how I approach learning. The personalized assessments help me focus on exactly what I need to improve."</p>
                         <div class="testimonial__author">
@@ -244,9 +271,38 @@
                         </div>
                     </div>
                 </div>
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial__content">
+                        <p>"The AI-powered recommendations are spot-on. I've seen a significant improvement in my test scores since using Quizzler."</p>
+                        <div class="testimonial__author">
+                            <strong>Michael Chen</strong>
+                            <span>Engineering Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial__content">
+                        <p>"The focus mode is a game-changer. I can study without distractions and my productivity has increased dramatically."</p>
+                        <div class="testimonial__author">
+                            <strong>Priya Sharma</strong>
+                            <span>Business Management Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial__content">
+                        <p>"The adaptive learning path feature helped me identify my weak areas and improve them systematically."</p>
+                        <div class="testimonial__author">
+                            <strong>David Williams</strong>
+                            <span>Medical Student</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Team Section -->
     <section id="team" class="team">
@@ -258,55 +314,74 @@
             <div class="team__grid">
                 <div class="team-card" data-aos="flip-left" data-aos-delay="100">
                     <div class="team-card__avatar">
-                        <i class="fas fa-user-graduate"></i>
+                        <img src="assets/piyush.jpeg" alt="Piyush Das" class ="team-member-photo" />
                     </div>
                     <div class="team-card__info">
                         <h3 class="team-card__name">Piyush Pradeep Das</h3>
                         <p class="team-card__role">AI & Data Science</p>
                         <p class="team-card__institution">Thakur College of Engineering & Technology</p>
-                        <a href="mailto:piyushdas2004@gmail.com" class="team-card__email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <div class="team-card__social">
+                            <a href="mailto:piyushdas2004@gmail.com" class="social-link email" title="Email">
+                                 <i class="fa fa-envelope"></i>
+                             </a>
+                            <a href="https://www.linkedin.com/in/daspiyush2004/" class="social-link linkedin" title="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/PiyushDas-2004" class="social-link github" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="team-card" data-aos="flip-left" data-aos-delay="200">
                     <div class="team-card__avatar">
-                        <i class="fas fa-user-graduate"></i>
+                        <img src="assets/kausthub.png" alt="Kaustubh Gondkar" class ="team-member-photo" />
                     </div>
                     <div class="team-card__info">
                         <h3 class="team-card__name">Kaustubh Gondkar</h3>
                         <p class="team-card__role">AI & Data Science</p>
                         <p class="team-card__institution">Thakur College of Engineering & Technology</p>
-                        <a href="mailto:kaustubhsgondkar@gmail.com" class="team-card__email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <div class="team-card__social">
+                            <a href="mailto:kaustubhsgondkar@gmail.com" class="social-link email" title="Email">
+                                 <i class="fa fa-envelope"></i>
+                             </a>
+                            <a href="https://www.linkedin.com/in/kaustubh-gondkar-731213315/" class="social-link linkedin" title="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://x.com/gKaustubh13" class="social-link x" title="X" target="_blank">
+                                <span style="font-weight: bold; font-size: 18px;">X</span>
+                                </a>
+                            </a>
+                            <a href="https://github.com/gKaustubh13" class="social-link github" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="team-card" data-aos="flip-left" data-aos-delay="300">
                     <div class="team-card__avatar">
-                        <i class="fas fa-user-graduate"></i>
+                        <img src="assets/tanmay.jpeg" alt="Tanmay Nayak" class ="team-member-photo" />
                     </div>
                     <div class="team-card__info">
                         <h3 class="team-card__name">Tanmay Nayak</h3>
                         <p class="team-card__role">AI & Data Science</p>
                         <p class="team-card__institution">Thakur College of Engineering & Technology</p>
-                        <a href="mailto:nayaktanmayg@gmail.com" class="team-card__email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <div class="team-card__social">
+                            <a href="mailto:nayaktanmayg@gmail.com" class="social-link email" title="Email">
+                                 <i class="fa fa-envelope"></i>
+                             </a>
+                            <a href="www.linkedin.com/in/tanmay-nayak-272532261/" class="social-link linkedin" title="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/cons.tan22/" class="social-link instagram" title="Instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/TanmayN22" class="social-link github" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="team-card" data-aos="flip-left" data-aos-delay="400">
-                    <div class="team-card__avatar">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                    </div>
-                    <div class="team-card__info">
-                        <h3 class="team-card__name">Ms. Swati Mahalle</h3>
-                        <p class="team-card__role">Faculty Mentor</p>
-                        <p class="team-card__institution">Thakur College of Engineering & Technology</p>
-                        <a href="mailto:swati.mahalle@tcetmumbai.in" class="team-card__email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -317,8 +392,11 @@
         <div class="container">
             <div class="footer__content">
                 <div class="footer__brand">
-                    <h2>🎓 Quizzler</h2>
-                    <p>The Future of Personalized Learning</p>
+                    <img src="assets/app_icon.png" alt="Quizzler Logo" class="logo" />
+                    <div class="footer__brand-content">
+                        <h2>Quizzler</h2>
+                        <p>The Future of Personalized Learning</p>
+                    </div>
                 </div>
                 <div class="footer__download">
                     <h3>Ready to Transform Your Learning?</h3>
@@ -329,7 +407,7 @@
                 </div>
             </div>
             <div class="footer__bottom">
-                <p>&copy; 2025 Quizzler. All rights reserved. Thakur College of Engineering & Technology, Mumbai.</p>
+                <p>&copy; 2025 Quizzler. All rights reserved.</p>
             </div>
         </div>
     </footer>
